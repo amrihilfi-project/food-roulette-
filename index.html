@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Roulette — Where Should We Eat?</title>
+    <meta name="description" content="Spin the wheel and let fate decide your next lunch spot! A fun randomizer for your team's nearby restaurant list." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <!-- ───────── Header ───────── -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <span class="header__icon" aria-hidden="true">🍜</span>
+            <h1 class="header__title">Food Roulette</h1>
+            <p class="header__subtitle">Let fate pick your lunch</p>
+        </div>
+    </header>
+
+    <!-- ───────── Main ───────── -->
+    <main class="main" id="main">
+
+        <!-- Slot-machine display -->
+        <section class="roulette" id="roulette-section" aria-label="Restaurant randomizer">
+            <div class="roulette__window" id="roulette-window">
+                <div class="roulette__track" id="roulette-track">
+                    <span class="roulette__placeholder">Press Spin to begin!</span>
+                </div>
+            </div>
+
+            <button class="spin-btn" id="spin-btn" type="button">
+                <span class="spin-btn__label">🎰 Spin!</span>
+            </button>
+        </section>
+
+        <!-- Winner card (hidden until spin completes) -->
+        <section class="winner" id="winner-card" aria-live="polite" hidden>
+            <div class="winner__badge">🏆 Today's Pick</div>
+            <h2 class="winner__name" id="winner-name"></h2>
+            <p class="winner__location" id="winner-location">
+                <span class="winner__location-icon" aria-hidden="true">📍</span>
+                <span id="winner-location-text"></span>
+            </p>
+            <ul class="winner__tags" id="winner-tags"></ul>
+            <button class="reset-btn" id="reset-btn" type="button">🔄 Spin Again</button>
+        </section>
+
+    </main>
+
+    <!-- ───────── Footer ───────── -->
+    <footer class="footer" id="footer">
+        <p>Made with 🍕 for the team &mdash; Food Roulette &copy; 2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

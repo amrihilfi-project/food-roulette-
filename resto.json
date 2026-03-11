@@ -1,0 +1,79 @@
+[
+    {
+        "id": "a1b2c3d4-1001-4e8f-b001-aabbccddeeff",
+        "name": "Ayam Bakar & Goreng Si Bungsu",
+        "location": "Jl. Gelap Nyawang (Opposite MBA ITB), Bandung",
+        "tags": [
+            "Indonesian",
+            "Grilled Chicken",
+            "Budget-friendly",
+            "Student Favorite"
+        ]
+    },
+    {
+        "id": "b2c3d4e5-2002-4e8f-b002-aabbccddeeff",
+        "name": "Ojisan Ramen",
+        "location": "Jl. Gelap Nyawang, Bandung",
+        "tags": [
+            "Japanese",
+            "Ramen",
+            "Street Food",
+            "Affordable"
+        ]
+    },
+    {
+        "id": "c3d4e5f6-3003-4e8f-b003-aabbccddeeff",
+        "name": "Ayam Bakar Madu Spesial Gelap Nyawang",
+        "location": "Jl. Gelap Nyawang, Bandung",
+        "tags": [
+            "Indonesian",
+            "Honey Grilled Chicken",
+            "Classic",
+            "Legendary"
+        ]
+    },
+    {
+        "id": "d4e5f6a7-4004-4e8f-b004-aabbccddeeff",
+        "name": "Bebek Ali Boromeus",
+        "location": "Jl. Gelap Nyawang (Near Borromeus Hospital area), Bandung",
+        "tags": [
+            "Indonesian",
+            "Fried Duck",
+            "Legendary",
+            "Crowd Favorite"
+        ]
+    },
+    {
+        "id": "e5f6a7b8-5005-4e8f-b005-aabbccddeeff",
+        "name": "Sate Padang Gelap Nyawang",
+        "location": "Jl. Gelap Nyawang, Bandung",
+        "tags": [
+            "Indonesian",
+            "Sate Padang",
+            "Night Culinary",
+            "Street Food"
+        ]
+    },
+    {
+        "id": "f6a7b8c9-6006-4e8f-b006-aabbccddeeff",
+        "name": "Indomie & Kopi (Warmindo) Area",
+        "location": "Jl. Gelap Nyawang (Multiple Stalls), Bandung",
+        "tags": [
+            "Comfort Food",
+            "Noodles",
+            "Late Night",
+            "Budget"
+        ]
+    },
+    {
+        "id": "a7b8c9d0-7007-4e8f-b007-aabbccddeeff",
+        "name": "Soto Ayam Gelap Nyawang",
+        "location": "Jl. Gelap Nyawang, Bandung",
+        "tags": [
+            "Indonesian",
+            "Soto",
+            "Breakfast",
+            "Lunch"
+        ]
+    }
+]
